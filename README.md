@@ -1,5 +1,4 @@
-# Seashell-Rarity-Predictor
-This repository contains a Python-based machine learning system for seashell rarity classification. It uses scikit-learn’s RandomForestClassifier trained on a structured dataset and deploys the model via a lightweight Tkinter desktop interface.
+
 # 🐚 Seashell Rarity Predictor
 
 The **Seashell Rarity Predictor** is a machine learning–based desktop application that predicts the rarity of seashells using physical and environmental features. The system uses a **Random Forest classifier** trained on a synthetic dataset and provides predictions through a simple **Tkinter GUI**.
