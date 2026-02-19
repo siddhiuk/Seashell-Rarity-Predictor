@@ -34,7 +34,7 @@ https://github.com/siddhiuk/seashell-rarity-predictor
 
 ## 🎥 Project Demo Video
 
-[Watch Demo Video](https://drive.google.com/file/d/1tDLzetS_WtSO7o6gbNDmxB6gPWhyt8Dh/view?usp=sharing).
+[Watch Demo Video](https://drive.google.com/file/d/1RFka2kNEXu50flpmtiPe_uWVPBF5ORk-/view?usp=sharing).
 <img width="1831" height="853" alt="image" src="https://github.com/user-attachments/assets/d647ce15-f8e0-49ae-b0fc-4d92220df955" />
 
 
