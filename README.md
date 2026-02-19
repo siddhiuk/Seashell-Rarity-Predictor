@@ -1,48 +1,25 @@
+# Seashell Rarity Predictor (Image Classification)
 
-# 🐚 Seashell Rarity Predictor
+This project uses Deep Learning (CNN) to classify seashell rarity from images.
 
-The **Seashell Rarity Predictor** is a machine learning–based desktop application that predicts the rarity of seashells using physical and environmental features. The system uses a **Random Forest classifier** trained on a synthetic dataset and provides predictions through a simple **Tkinter GUI**.
+## Project Structure
+- `dataset/`: Contains subfolders for each rarity class. Place your training images here.
+- `train_cnn.py`: Script to train the Convolutional Neural Network.
+- `image_predictor.py`: Tkinter application to upload an image and get a prediction.
+- `seashell_classifier.h5`: The saved model (generated after training).
 
-This project demonstrates the practical application of **supervised learning**, **data preprocessing**, and **model deployment** using Python.
-
----
-
-## 📌 Features
-
-- Machine learning–based rarity prediction  
-- Random Forest classification model  
-- Synthetic dataset with 1200+ records  
-- User-friendly desktop GUI (Tkinter)  
-- Real-time prediction output  
-- Beginner-friendly and well-structured code  
-
----
-
-## 🧠 Dataset Description
-
-The dataset (`seashells_dataset.csv`) contains the following features:
-
-| Column | Description |
-|------|------------|
-| length | Shell length (cm) |
-| width | Shell width (cm) |
-| thickness | Shell thickness (mm) |
-| weight | Shell weight (grams) |
-| pattern | Pattern complexity (1 = Low, 4 = Very High) |
-| location | 1 = Beach, 2 = Deep Sea |
-| rarity | Target class (Common, Uncommon, Rare, Very Rare) |
-
-> Note: A synthetic dataset is used due to the unavailability of real-world labeled seashell rarity data.
-
----
-
-## 🛠️ Technologies Used
-
-- Python  
-- Pandas  
-- Scikit-learn  
-- Tkinter  
-- Random Forest Classifier  
-
----
-
+## Setup
+1. Install dependencies:
+   ```bash
+   pip install tensorflow pillow numpy
+   ```
+2. Prepare your dataset:
+   Place images in `dataset/Common`, `dataset/Uncommon`, etc.
+3. Train the model:
+   ```bash
+   python train_cnn.py
+   ```
+4. Run the predictor:
+   ```bash
+   python image_predictor.py
+   ```
