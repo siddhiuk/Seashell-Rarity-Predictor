@@ -27,3 +27,8 @@ This project uses Deep Learning (CNN) to classify seashell rarity from images.
 
 👉 **Seashell Rarity Predictor**  
 https://github.com/siddhiuk/seashell-rarity-predictor
+
+## 🌐 Live Demo
+
+👉 https://seashell-rarity-predictor--siddhhhiiiiiii.replit.app/
+
